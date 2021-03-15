@@ -24,7 +24,7 @@ export class ArticlesComponent implements OnInit {
   }
 
   delete(article: Article){
-    this.articleService.delete(article.id).subscribe(()=>{
+    this.articleService.delete(article.id).subscribe(() => {
       this._articles = this.articleService.get();
     });
   }

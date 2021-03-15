@@ -16,11 +16,15 @@ export class ArticleService {
     return this.http.get<Article[]>("http://localhost:3000/articles");
   }
 
-  public delete(id:number): Observable<any> {
+  public getArticleById(id: number): Observable<Article> {
+    return this.http.get<Article>(`http://localhost:3000/articles/${id}`);
+  }
+
+  public delete(id: number): Observable<any> {
     return this.http.delete<any>(`http://localhost:3000/articles/${id}`);
   }
 
   public add(newArticle : RawArticle): Observable<Article> {
-    return this.http.post<Article>("http://localhost:3000/articles/", newArticle);
+    return this.http.post<Article>(`http://localhost:3000/articles/`, newArticle);
   }
 }

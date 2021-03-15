@@ -4,19 +4,19 @@
       "id": 0,
       "title": "My First Article",
       "content": "Hello World",
-      "authors": "Orangefire"
+      "authors": "Alexandre M"
     },
     {
       "id": 1,
       "title": "Angular component",
       "content": "Angular component looks awesome!",
-      "authors": "Orangefire"
+      "authors": "Alexandre M"
     },
     {
       "id": 2,
       "title": "Angular service",
       "content": "I read something about angular service, i will try it soon",
-      "authors": "Orangefire"
+      "authors": "Alexandre M"
     },
     {
       "title": "Fake Title",
