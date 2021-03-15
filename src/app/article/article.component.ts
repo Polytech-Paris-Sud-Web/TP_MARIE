@@ -17,18 +17,10 @@ export class ArticleComponent implements OnInit {
   @Output()
   deletedArticle: EventEmitter<Article> = new EventEmitter();
 
-  showView = true;
-
-  constructor(private router: ActivatedRoute, private articleService: ArticleService) {
+  constructor() {
   }
 
   ngOnInit() {
-    if (this.router.snapshot.paramMap.get('id')) {
-      this.articleService.getArticleById(Number(this.router.snapshot.paramMap.get('id'))).subscribe(article => {
-        this.article = article;
-        this.showView = false;
-      });
-    }
   }
 
   delete() {

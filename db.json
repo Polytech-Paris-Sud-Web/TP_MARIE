@@ -1,28 +1,10 @@
 {
   "articles": [
     {
-      "id": 0,
-      "title": "My First Article",
-      "content": "Hello World",
-      "authors": "Alexandre M"
-    },
-    {
-      "id": 1,
-      "title": "Angular component",
-      "content": "Angular component looks awesome!",
-      "authors": "Alexandre M"
-    },
-    {
       "id": 2,
       "title": "Angular service",
       "content": "I read something about angular service, i will try it soon",
       "authors": "Alexandre M"
-    },
-    {
-      "title": "Fake Title",
-      "content": "sq",
-      "authors": "qs",
-      "id": 3
     },
     {
       "title": "Fake Title",
